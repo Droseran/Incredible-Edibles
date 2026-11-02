@@ -1,0 +1,40 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/3/validStacks/0/textureMapping",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "game:recipes/cooking/porridge.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/3/validStacks/0/code",
+    "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
+    "file": "game:recipes/cooking/porridge.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/0/textureMapping",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "game:recipes/cooking/porridge.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/4/validStacks/0/code",
+    "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
+    "file": "game:recipes/cooking/porridge.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  }
+]

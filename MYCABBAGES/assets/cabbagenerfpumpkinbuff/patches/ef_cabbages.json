@@ -1,0 +1,66 @@
+[
+	{
+    	"op": "replace",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+    	"path": "/attributesByType/*-cabbage/nutritionPropsWhenInMeal/satiety",
+    	"value": 225,
+	   	"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+  	},
+	{
+    	"op": "replace",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+    	"path": "/attributesByType/*-pumpkin/nutritionPropsWhenInMeal/satiety",
+    	"value": 210,
+	   	"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+  	},
+	{
+		"op": "replace",
+		"file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+    	"path": "/nutritionPropsByType/*-cabbage/satiety",
+    	"value": 150,
+	   	"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+  	},
+	{
+		"op": "replace",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"path": "/nutritionPropsByType/*-cabbage-partbaked/satiety",
+		"value": 160,
+		"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+	},
+	{
+		"op": "replace",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"path": "/nutritionPropsByType/*-cabbage-perfect/satiety",
+		"value": 200,
+		"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+	},
+	{
+		"op": "replace",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"path": "/nutritionPropsByType/*-cabbage-charred/satiety",
+		"value": 175,
+		"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+	},
+	{
+		"op": "replace",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"path": "/nutritionPropsByType/*-cabbage-perfect/satiety",
+		"value": 200,
+		"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+	},
+	{
+		"op": "replace",
+		"file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+		"path": "/nutritionPropsByType/*-cabbage-charred/satiety",
+		"value": 175,
+		"side": "Server",
+		"dependsOn": [{"modid":"expandedfoods"}]
+	}
+]

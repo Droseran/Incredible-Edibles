@@ -1,0 +1,31 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributesByType/*-cabbage/inPieProperties",
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
+  },
+  {
+    "op": "remove",
+    "path": "/attributesByType/*-cabbage/nutritionPropsWhenInMeal",
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
+  },
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-pumpkin/nutritionPropsWhenInMeal/satiety",
+    "value": 210,
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-cabbage",
+    "value": null,
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "expandedfoods", "invert": true}]
+  }
+]

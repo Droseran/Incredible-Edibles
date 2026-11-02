@@ -1,0 +1,18 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-cabbage",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "Server"
+  }
+]

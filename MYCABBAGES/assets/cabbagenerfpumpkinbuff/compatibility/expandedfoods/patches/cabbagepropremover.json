@@ -1,0 +1,21 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributesByType/*-cabbage/inPieProperties",
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributesByType/*-cabbage/nutritionPropsWhenInMeal",
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-cabbage",
+    "value": null,
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "Server"
+  }
+]

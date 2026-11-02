@@ -1,0 +1,15 @@
+{
+  "Type": "Content",
+  "TextureSize": 32,
+  "Name": "MY CABBAGES!",
+  "Version": "1.0.0",
+  "networkversion": "1.0.0",
+  "Description": "The cabbages have ruled our farms with an iron grip for far too long, it's time to cut them down to size.",
+  "ModID": "cabbagenerfpumpkinbuff",
+  "Authors": [ "WhiskeySunshine" ],
+  "Contributors": [],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": { "game": "1.22.0" }
+}

@@ -1,0 +1,58 @@
+[
+	{
+		"op": "addmerge",
+		"file": "cabbagenerfpumpkinbuff:itemtypes/food/vegetable.json",
+		"path": "/enabled",
+		"value": false,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "cabbagenerfpumpkinbuff:compatibility/game/recipes/barrel/vinegarpickledvegetable.json",
+		"path": "/0/enabled",
+		"value": true,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "cabbagenerfpumpkinbuff:compatibility/game/recipes/barrel/vinegarpickledvegetable.json",
+		"path": "/1/enabled",
+		"value": true,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "cabbagenerfpumpkinbuff:compatibility/game/recipes/barrel/vinegarpickledvegetable.json",
+		"path": "/2/enabled",
+		"value": true,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "cabbagenerfpumpkinbuff:recipes/grid/chorpedcabbage.json",
+		"path": "/0/enabled",
+		"value": false,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "cabbagenerfpumpkinbuff:recipes/grid/chorpedcabbage.json",
+		"path": "/1/enabled",
+		"value": false,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "cabbagenerfpumpkinbuff:recipes/barrel/pickledchorpedcabbage.json",
+		"path": "/enabled",
+		"value": false,
+		"dependsOn": [{"modid": "expandedfoods"}],
+		"side": "Server"
+	}
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/ingredients/5/validStacks/0/textureMapping",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/5/validStacks/0/code",
+    "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks/0/textureMapping",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/6/validStacks/0/code",
+    "value": "cabbagenerfpumpkinbuff:choppedvegetable-cabbage",
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "side": "Server",
+    "dependsOn": [{"modID": "efmealsmodule", "invert": true}]
+  }
+]

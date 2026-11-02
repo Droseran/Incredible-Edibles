@@ -1,0 +1,134 @@
+[  
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-*-partbaked", "name": "type", "skipVariants": ["cabbage"] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-{type}-partbaked" }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-*-partbaked", "name": "type", "skipVariants": ["cabbage"] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-{type}-partbaked" }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-*-perfect", "name": "type", "skipVariants": ["cabbage"] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-{type}-perfect" }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-*-perfect", "name": "type", "skipVariants": ["cabbage"] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-{type}-perfect" }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-*-charred", "name": "type", "skipVariants": ["cabbage"] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-{type}-charred" }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-*-charred", "name": "type", "skipVariants": ["cabbage"] }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-{type}-charred" }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-partbaked", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-cabbage-partbaked", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-partbaked", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-cabbage-partbaked", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-perfect", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-cabbage-perfect", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-perfect", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-cabbage-perfect", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 1,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-knife"], "isTool": true  },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-charred", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-cabbage-charred", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "KV",
+    "recipeGroup": 2,
+    "ingredients": {
+      "K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+      "V": { "type": "item", "code": "expandedfoods:cookedveggie-cabbage-charred", "name": "type" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "item", "code": "expandedfoods:cookedchoppedvegetable-cabbage-charred", "quantity": 2 }
+  }
+]

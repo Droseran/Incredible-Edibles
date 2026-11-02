@@ -1,0 +1,149 @@
+[
+	{
+    	"op": "remove",
+    	"path": "/ingredients/2/validStacks/0",
+    	"file": "efmealsmodule:recipes/cooking/augratin.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/3/validStacks/0",
+    	"file": "efmealsmodule:recipes/cooking/augratin.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/2/validStacks/0",
+    	"file": "efmealsmodule:recipes/cooking/pastahot.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/3/validStacks/0",
+    	"file": "efmealsmodule:recipes/cooking/pastahot.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/2/validStacks/0",
+    	"file": "efmealsmodule:recipes/cooking/riceandbeans.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/3/validStacks/0",
+    	"file": "efmealsmodule:recipes/cooking/riceandbeans.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/1/validStacks/0",
+    	"file": "efmealsmodule:recipes/mixing/pastacold.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/2/validStacks/0",
+    	"file": "efmealsmodule:recipes/mixing/pastacold.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/5/validStacks/0",
+    	"file": "game:recipes/cooking/meatystew.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/6/validStacks/0",
+    	"file": "game:recipes/cooking/meatystew.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/3/validStacks/0",
+    	"file": "game:recipes/cooking/porridge.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/4/validStacks/0",
+    	"file": "game:recipes/cooking/porridge.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/5/validStacks/0",
+    	"file": "game:recipes/cooking/scrambledeggs.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/6/validStacks/0",
+    	"file": "game:recipes/cooking/scrambledeggs.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/1/validStacks/0",
+    	"file": "game:recipes/cooking/soup.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/2/validStacks/0",
+    	"file": "game:recipes/cooking/soup.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/3/validStacks/0",
+    	"file": "game:recipes/cooking/soup.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/0/validStacks/0",
+    	"file": "game:recipes/cooking/vegetablestew.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/1/validStacks/0",
+    	"file": "game:recipes/cooking/vegetablestew.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/2/validStacks/0",
+    	"file": "game:recipes/cooking/vegetablestew.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	},
+	{
+    	"op": "remove",
+    	"path": "/ingredients/3/validStacks/0",
+    	"file": "game:recipes/cooking/vegetablestew.json",
+    	"side": "Server",
+    	"dependsOn": [{"modID": "efmealsmodule"}]
+  	}
+]

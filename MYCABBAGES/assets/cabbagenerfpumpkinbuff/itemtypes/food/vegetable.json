@@ -1,0 +1,66 @@
+{
+	inheritFrom: "game:itemtypes/food/vegetable.json",
+	code: "choppedvegetable",
+	maxstacksize: 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["cabbage" ] }
+	],
+	shapeByType: {
+		"*": { base: "item/food/vegetable/choppedcabbage" }
+	},
+	texture: { base: "item/food/vegetable/choppedcabbage"},
+	attributes: {
+		handbook: {
+			groupBy: ["vegetable-*"]
+		},
+		foodTags: ["cabbage", "tastyvegetable"],
+		inContainerTexture: { base: "game:block/wood/barrel/raw-cabbage" },
+		nutritionPropsWhenInMeal: { satiety: 225, foodcategory: "vegetable" },
+		inPieProperties: { texture: "game:block/food/pie/fill-cabbage", partType: 'Filling', mixingCodes: ["potpie"] },
+    	displayable: {
+            shelf: {
+                size: { width: 4, height: 4, length: 4 }
+            }
+        }
+	},
+	nutritionPropsByType: { 
+		"*-cabbage": {satiety: 150, foodcategory: "vegetable"}
+	},
+	transitionablePropsByType: {
+		"*": [{
+			type: "Perish",
+			freshHours: { avg:  120 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}]
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-cabbage": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 1.69
+		}
+	},
+	tpHandTransformByType: {
+		"*-cabbage": {
+			translation: { "x": -0.25, "y": -1, "z": -1 },
+			rotation: { "x": 125, "y": -2, "z": -72 },
+			origin: { "x": -0.05, "y": 0.4, "z": 0.8 },
+			scale: 0.45
+		}
+	},
+	groundTransformByType: {
+		"*-cabbage": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		}
+	}
+}

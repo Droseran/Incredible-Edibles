@@ -1,0 +1,32 @@
+[
+	{
+		"enabled": false,
+		"code": "pickledvegetable",
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "game:vinegarportion",  "litres": 1.5, "consumelitres": 1.5 },
+			{ "type": "item", "code": "game:vegetable-*", "name": "vegetable", "quantity": 1, "allowedVariants": ["carrot", "onion", "parsnip", "pumpkin", "turnip", "bellpepper", "olive" ] }
+		],
+		"output": { "type": "item", "code": "game:pickledvegetable-{vegetable}", "stackSize": 1 }
+	},
+	{
+		"enabled": false,
+		"code": "pickledvegetable",
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "game:vinegarportion",  "litres": 1.5, "consumelitres": 1.5 },
+			{ "type": "item", "code": "game:legume-*", "name": "legume", "quantity": 1, "allowedVariants": ["soybean"] }
+		],
+		"output": { "type": "item", "code": "game:pickledlegume-{legume}", "stackSize": 1 }
+	},
+	{
+		"enabled": false,
+		"code": "pickledvegetable",
+		"sealHours": 336,
+		"ingredients": [
+			{ "type": "item", "code": "game:vinegarportion",  "litres": 1.5, "consumelitres": 1.5 },
+			{ "type": "item", "code": "game:vegetable-cabbage" }
+		],
+		"output": { "type": "item", "code": "game:pickledvegetable-cabbage", "stackSize": 2 }
+	}
+]

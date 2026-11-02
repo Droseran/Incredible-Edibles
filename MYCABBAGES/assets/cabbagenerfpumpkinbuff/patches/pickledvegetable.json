@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-cabbage/satiety",
+    "value": 125,
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "Server"
+  }
+]

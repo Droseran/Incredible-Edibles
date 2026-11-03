@@ -1,0 +1,14 @@
+[
+	{
+		"op": "addmerge",
+		"file": "cabbagenerfpumpkinbuff:itemtypes/food/vegetable.json",
+		"path": "/attributes",
+		"value": {
+			"hydrationByType": {
+				"*": 20 
+			}
+		},
+		"side": "Server",
+		"dependsOn": [{"modid": "hydrateordiedrate"}]
+	}
+]

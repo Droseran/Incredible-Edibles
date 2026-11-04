@@ -1,0 +1,14 @@
+[
+    {
+        "op": "addmerge",
+		"file": "incrediblegourd:itemtypes/food/pumpkinseed.json",
+		"path": "/attributes",
+        "value": { "hydrationByType": { 
+			"pumpkinseed-raw" : -15,
+			"pumpkinseed-roasted" : -30
+			}
+		},
+		"side": "Server",
+		"dependsOn": [{ "modId": "hydrateordiedrate" }]
+	}
+]

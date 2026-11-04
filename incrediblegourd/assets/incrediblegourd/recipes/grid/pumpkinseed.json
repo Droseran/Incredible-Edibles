@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "S",
+		"shapeless": true,
+		"ingredients": {
+			"S": { "type": "item", "code": "incrediblegourd:pumpkinseed-raw"}
+		},
+		"height": 1,
+		"width": 1,
+		"output": { "type": "item", "code": "game:seeds-pumpkin" }
+	}
+]

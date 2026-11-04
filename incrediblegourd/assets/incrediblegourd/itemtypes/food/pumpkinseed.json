@@ -1,0 +1,111 @@
+{
+	"code": "pumpkinseed",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": ["raw", "roasted"] }
+	],
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Messy12", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } }
+	],
+	"attributes": {
+        "displaycaseable": true,
+		"shelvable": true,
+		"onshelfTransform": {
+			"translation": { "x": 0, "y": -0.225, "z": 0 },
+			"scale": 0.55
+		},
+		"inContainerTextureByType": { 
+			"*-raw": {"base": "block/wood/barrel/raw-soybean"},
+			"*-roasted": {"base": "block/wood/barrel/raw-soybean"}
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": -0.225, "z": 0 },
+			"scale": 0.55
+		},
+		"foodTagsByType": { 
+			"*-raw": ["grain"]
+		},
+		"bakingPropertiesByType": {
+			"*-raw": {
+				"temp": 175,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"resultCode": "incrediblegourd:pumpkinseed-roasted"
+			},
+			"*-roasted": {
+				"temp": 175,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 1.0,
+				"endScaleY": 1.0,
+				"initialCode": "incrediblegourd:pumpkinseed-raw"
+			}
+		}
+	},
+	"attributesByType": {
+		"*-raw": {"nutritionPropsWhenInMeal": { "satiety": 180, "foodcategory": "Grain" }},
+		"*-roasted": {"nutritionPropsWhenInMeal": { "satiety": 240, "foodcategory": "Grain" }}
+	},
+	"shape": {"base": "item/food/seed/pumpkinseed"},
+	"texturesByType": {
+		"*-roasted": {"pumpkinseeds": {"base": "incrediblegourd:item/food/seed/pumpkinseeds-roasted"}}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-raw": {"satiety": 45, "foodcategory": "Grain"},
+		"*-roasted": {"satiety": 120, "foodcategory": "Grain"}
+	},
+	"transitionablePropsByType": {
+		"*-raw": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 648 },
+				"transitionHours": { "avg": 162 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 0.33
+			}
+		],
+		"*-roasted": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 432 },
+				"transitionHours": { "avg": 108 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 0.33
+			}
+		]
+    },
+	"materialDensity": 600,	
+	"guiTransform": {
+		"translation": { "x": 0, "y": -3, "z": 0 },
+		"rotation": { "x": -30, "y": -40, "z": 1 },
+		"origin": { "x": 0, "y": 0.4, "z": 0 },
+		"scale": 2.8
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.1, "y": 0.16, "z": 0 },
+		"rotation": { "x": 37, "y": 77, "z": 2 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 1.95
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.04, "y": -0.6, "z": -0.8 },
+		"rotation": { "x": 119, "y": -7, "z": -72 },
+		"origin": { "x": -0.1, "y": 0.32, "z": 0.82 },
+		"scale": 0.48
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 3, "y": 1, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

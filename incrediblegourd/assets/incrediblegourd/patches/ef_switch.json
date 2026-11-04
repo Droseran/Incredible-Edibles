@@ -1,0 +1,34 @@
+[
+	{
+        "op": "addmerge",
+        "file": "incrediblegourd:recipes/kneading/EFcandy.json",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "incrediblegourd:recipes/kneading/EFcandy.json",
+        "path": "/1/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "incrediblegourd:recipes/kneading/EFcandy.json",
+        "path": "/2/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}],
+        "side": "Server"
+    },
+	{
+        "op": "addmerge",
+        "file": "incrediblegourd:recipes/kneading/EFcandy.json",
+        "path": "/3/enabled",
+        "value": false,
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}],
+        "side": "Server"
+    }
+]

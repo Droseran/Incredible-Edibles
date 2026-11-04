@@ -1,0 +1,20 @@
+{
+    "incrediblegourd:item-pumpkinseed-raw": "Raw pumpkin seeds",
+    "incrediblegourd:item-pumpkinseed-roasted": "Roasted pumpkin seeds",
+
+    "game:recipeingredient-item-pumpkinseed-raw": "pumpkin seeds",
+    "game:recipeingredient-item-pumpkinseed-raw-insturmentalcase": "pumpkin seeds",
+    "recipeingredient-item-pumpkinseed-raw": "pumpkin seeds",
+    "recipeingredient-item-pumpkinseed-raw-insturmentalcase": "pumpkin seeds",
+
+    "game:recipeingredient-item-pumpkinseed-roasted": "pumpkin seeds",
+    "game:recipeingredient-item-pumpkinseed-roasted-insturmentalcase": "pumpkin seeds",
+    "recipeingredient-item-pumpkinseed-roasted": "pumpkin seeds",
+    "recipeingredient-item-pumpkinseed-roasted-insturmentalcase": "pumpkin seeds",
+
+    "expandedfoods:item-candy-pumpkinseed-raw": "Pumpkin seed candy",
+    "expandedfoods:item-candy-roastedpumpkinseed-raw": "Roasted pumpkin seed candy",
+
+    "incrediblegourd:itemdesc-pumpkinseed-raw": "A crunchy snack hiding in the wet guts of a pumpkin. Roast them for something even better!",
+    "incrediblegourd:itemdesc-pumpkinseed-roasted": "A crunchy snack, made better with a little heat and time."
+}

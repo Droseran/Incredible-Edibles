@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "textureSize": 32,
+  "name": "The Incredible Gourd",
+  "version": "1.0.0",
+  "networkVersion": "1.0.0",
+  "description": "Making pumpkins (and other gourds) more worth the effort.",
+  "modID": "incrediblegourd",
+  "authors": ["Whiskey Sunshine"],
+  "contributors": ["AllegroSky", "FuegoFish"],
+  "dependencies": { "game": "1.22.0" }
+}

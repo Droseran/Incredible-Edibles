@@ -1,0 +1,10 @@
+[
+	{
+    	"op": "addmerge",
+		"file": "foodshelves:config/restrictions/general/liquidystuff.json",
+    	"path": "/CollectibleCodes/-",
+    	"value": "incrediblegourd:pumpkinseed-*",
+		"side": "server",
+    	"dependsOn": [ { "modid": "foodshelves" } ]
+  	}
+]

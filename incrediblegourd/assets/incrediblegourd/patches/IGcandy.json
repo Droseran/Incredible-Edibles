@@ -1,0 +1,135 @@
+[
+	{
+        "op": "addeach",
+        "file": "expandedfoods:itemtypes/food/mixing/candy.json",
+        "path": "/variantgroups/0/states/-",
+        "value": ["pumpkinseed", "roastedpumpkinseed"],
+        "dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+    },
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/attributes/expandedNutritionPropsByType/*",
+		"value": {
+			"incrediblegourd:pumpkinseed-raw" : { "saturation": 0, "foodcategory": "Grain" },
+			"incrediblegourd:pumpkinseed-roasted" : { "saturation": 0, "foodcategory": "Grain" }
+		},
+		"dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/texturesByType/*-pumpkinseed-*",
+		"value": {"sunflower": {"base": "expandedfoods:item/food/candy/pumpkinseed"}},
+		"dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/texturesByType/*-roastedpumpkinseed-*",
+		"value": {"sunflower": {"base": "expandedfoods:item/food/candy/roastedpumpkinseed"}},
+		"dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/nutritionPropsByType/*-pumpkinseed-raw",
+		"value": {
+			"saturation": 180,
+            "health": 0.5,
+            "foodcategory": "Grain"
+		},
+		"dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/nutritionPropsByType/*-roastedpumpkinseed-raw",
+		"value": {
+			"saturation": 240,
+            "health": 0.5,
+            "foodcategory": "Grain"
+		},
+		"dependsOn": [{ "modid": "expandedfoods" }],
+        "side": "Server"
+	},
+	{
+        "op": "move",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"frompath": "/nutritionPropsByType/*",
+		"path": "/temp",
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"frompath": "/temp",
+		"path": "/nutritionPropsByType/*",
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+    },
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/tpHandTransformByType/*pumpkinseed-*",
+		"value": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 12, "y": 27, "z": -92 },
+			"origin": { "x": -0.05, "y": 0.2, "z": 0.25 },
+			"scale":  0.5
+		},
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"path": "/guiTransformByType/*pumpkinseed-*",
+		"value": {
+			"translation": { "x": -1, "y": 3, "z": 0 },
+				"rotation": { "x": -43, "y": 60, "z": -180 },
+				"origin": { "x": 0.6, "y": 0.1, "z": 0.5 },
+				"scale": 2.5
+		},
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+	},
+	{
+        "op": "move",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"frompath": "/tpHandTransformByType/*",
+		"path": "/temp",
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"frompath": "/temp",
+		"path": "/tpHandTransformByType/*",
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+    },
+	{
+        "op": "move",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"frompath": "/guiTransformByType/*",
+		"path": "/temp",
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+    },
+    {
+        "op": "move",
+		"file": "expandedfoods:itemtypes/food/mixing/candy.json",
+		"frompath": "/temp",
+		"path": "/guiTransformByType/*",
+		"dependsOn": [{ "modid": "expandedfoods"}],
+		"side": "Server"
+    }
+]

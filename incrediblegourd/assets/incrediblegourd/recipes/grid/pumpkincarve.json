@@ -1,0 +1,24 @@
+[
+	{
+		"ingredientPattern": "K,P",
+		"shapeless": true,
+		"ingredients": {
+			"K": { "type": "item", "tags": ["tool-knife"], "isTool": true },
+			"P": { "type": "block", "code": "game:pumpkin-fruit-4", "returnedStack": {"type": "item", "code": "incrediblegourd:pumpkinseed-raw", "quantity": 16} }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:vegetable-pumpkin", "quantity": 12 }
+	},
+	{
+		"ingredientPattern": "K,P",
+		"shapeless": true,
+		"ingredients": {
+			"K": { "type": "item", "tags": ["tool-cleaver"], "isTool": true },
+			"P": { "type": "block", "code": "game:pumpkin-fruit-4", "returnedStack": {"type": "item", "code": "incrediblegourd:pumpkinseed-raw", "quantity": 16} }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:vegetable-pumpkin", "quantity": 12 }
+	}
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "op": "addeach",
+        "file": "game:recipes/cooking/porridge.json",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            { "type": "item", "code": "incrediblegourd:pumpkinseed-raw", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group12" ]},
+            { "type": "item", "code": "incrediblegourd:pumpkinseed-roasted", "shapeElement": "bowl/vegetable 1/*", "textureMapping": [ "vegetable", "group12" ]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}]
+    },
+    {
+        "op": "addeach",
+        "file": "game:recipes/cooking/porridge.json",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            { "type": "item", "code": "incrediblegourd:pumpkinseed-raw", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group12" ]},
+            { "type": "item", "code": "incrediblegourd:pumpkinseed-roasted", "shapeElement": "bowl/vegetable 2/*", "textureMapping": [ "vegetable", "group12" ]}
+        ],
+        "side": "Server",
+        "dependsOn": [{"modid": "expandedfoods", "invert": true}]
+    }
+]
